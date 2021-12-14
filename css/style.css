@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background-color: #00a5be;
+}
+div#head{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    position: sticky;
+    top: 30px;
+    margin: 20px;
+}
+img#logo{
+    height: 150px;
+    width: 370px;
+}
+
+.btn-borde {
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    color: #007bff;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  }
+  
+  .btn-borde:hover,
+  .btn-borde:active,
+  .btn-borde:focus {
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+  }
+
+main{
+    background-image: url(../img/fondo3.png) ;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+    background-color: #00a5be;
+    background-position: center;
+}
+div#padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+img{
+    border-radius: 70px;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+h2{
+    color: #1900be;
+}
+div#nombre{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+    background-color: #be0046;
+    border-radius: 20px;
+    justify-content: center;
+}
+div#car{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    background-color: #a5be00;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+}
+div#salto{
+    height: 50px;
+}
+div#fondo{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 0;
+    padding: 10px;
+    margin: 20px;
+}
